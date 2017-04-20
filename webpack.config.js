@@ -40,7 +40,7 @@ const config = {
       {
         use: [{
           loader: 'babel-loader',
-          options: { presets: ['airbnb', 'stage-1'] },
+          options: { presets: ['airbnb', 'stage-1', 'react', 'es2015'] },
         }],
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
